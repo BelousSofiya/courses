@@ -1,3 +1,4 @@
+# ["Python Fundamentals"](https://softserve.academy)
 # ["Python Practical"](https://softserve.academy)
 # ["JAVASCRIPT BASICS [2015]"](https://softserve.academy)
 
