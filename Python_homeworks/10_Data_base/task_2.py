@@ -26,24 +26,24 @@
 # 70007       948.5       Graham Zusi
 # 70010       1983.43     Fabian Johns
 
-SELECT order_num, amount, name
-FROM customers JOIN orders ON customer_id = customers.id
-WHERE amount >= 500 AND amount <= 2000
-ORDER BY order_num
-
-#Tests
-
--- Testing with original db
-order_num   amount      name
-----------  ----------  ---------------
-70007       948.5       Graham Zusi
-70010       1983.43     Fabian Johns
-
--- Testing with extra rows
-order_num   amount      name
-----------  ----------  ---------------
-69007       500.0       Graham Zusi
-70007       948.5       Graham Zusi
-70010       1983.43     Fabian Johns
-70014       2000.0      Jozy Altidore
+# SELECT order_num, amount, name
+# FROM customers JOIN orders ON customer_id = customers.id
+# WHERE amount >= 500 AND amount <= 2000
+# ORDER BY order_num
+#
+# #Tests
+#
+# -- Testing with original db
+# order_num   amount      name
+# ----------  ----------  ---------------
+# 70007       948.5       Graham Zusi
+# 70010       1983.43     Fabian Johns
+#
+# -- Testing with extra rows
+# order_num   amount      name
+# ----------  ----------  ---------------
+# 69007       500.0       Graham Zusi
+# 70007       948.5       Graham Zusi
+# 70010       1983.43     Fabian Johns
+# 70014       2000.0      Jozy Altidore
 

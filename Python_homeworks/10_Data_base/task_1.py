@@ -20,24 +20,24 @@
 # Fabian Johns     Paris       300
 # Julian Green     London      300
 
-SELECT name, city, grade FROM customers
-WHERE city IN ('London', 'Paris')
-ORDER BY name
-
-#Tests
-
--- Testing with original db
-name             city        grade
----------------  ----------  -----
-Brad Guzan       London      100
-Fabian Johns     Paris       300
-Julian Green     London      300
-
-
--- Testing with extra rows
-name             city        grade
----------------  ----------  -----
-Angus McGee      Paris       500
-Brad Guzan       London      100
-Fabian Johns     Paris       300
-Julian Green     London      300
+# SELECT name, city, grade FROM customers
+# WHERE city IN ('London', 'Paris')
+# ORDER BY name
+#
+# #Tests
+#
+# -- Testing with original db
+# name             city        grade
+# ---------------  ----------  -----
+# Brad Guzan       London      100
+# Fabian Johns     Paris       300
+# Julian Green     London      300
+#
+#
+# -- Testing with extra rows
+# name             city        grade
+# ---------------  ----------  -----
+# Angus McGee      Paris       500
+# Brad Guzan       London      100
+# Fabian Johns     Paris       300
+# Julian Green     London      300
